@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-    const navTargets = ['home', 'about', 'features', 'carousel', 'contact'];
+    const navTargets = ['home', 'about', 'features', 'carousel', 'video', 'contact'];
     const sections = navTargets
         .map((id) => document.getElementById(id))
         .filter(Boolean);
